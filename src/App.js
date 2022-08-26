@@ -1,13 +1,15 @@
 import "./App.css";
+import Intro from "./components/Intro";
+import Background from "./components/Background";
+import Projects from "./components/Projects";
 import { Button } from "react-bootstrap";
 
 function App() {
 	return (
 		<div>
-			<header>
-				<p>sup</p>
-				<Button>HI Test </Button>
-			</header>
+			<Intro />
+			<Background />
+			<Projects />
 		</div>
 	);
 }
