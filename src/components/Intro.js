@@ -26,7 +26,7 @@ let Intro = () => {
 							Life long learner|{" "}
 						</p>
 						<p className="hover-animation ps-2">
-							Passionate about software Development
+							Passionate about Software Development
 						</p>
 					</div>
 				</div>
