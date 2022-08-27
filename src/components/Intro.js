@@ -10,15 +10,24 @@ let Intro = () => {
 			<div className="d-flex intro-text">
 				<div id="left">
 					<div className="hover-animation">Hello! </div>
-					<div className="hover-animation ps-3">
+					<div className="hover-animation ps-2">
 						{" "}
 						I'm Kevin McPeak
 					</div>
-					<div>Software Engineer</div>
-					<div id="intro-description">
-						<p>I am a self taught software engineer.</p>
-						<p>Life long learner</p>
-						<p>Passionate about software Development</p>
+					<br></br>
+					<div className="hover-animation pb-2">
+						Software Engineer
+					</div>
+					<div id="intro-description" className="d-flex">
+						<p className="hover-animation ps-2">
+							Self taught software engineer |{" "}
+						</p>
+						<p className="hover-animation ps-2">
+							Life long learner|{" "}
+						</p>
+						<p className="hover-animation ps-2">
+							Passionate about software Development
+						</p>
 					</div>
 				</div>
 
