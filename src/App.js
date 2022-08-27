@@ -19,17 +19,17 @@ import { IoLogoNpm } from "react-icons/io";
 
 function App() {
 	let skills = [
-		<FaGithub />,
-		<SiJavascript />,
-		<SiCss3 />,
-		<SiVisualstudio />,
-		<SiFirebase />,
-		<DiReact />,
-		<FaGitSquare />,
-		<AiFillApi />,
-		<AiFillHtml5 />,
-		<FaBootstrap />,
-		<IoLogoNpm />,
+		[<FaGithub />, "github"],
+		[<SiJavascript />, "JavsScript"],
+		[<SiCss3 />, "CSS"],
+		// [<SiVisualstudio />, "VS Code"],
+		[<SiFirebase />, "Firebase"],
+		[<DiReact />, "React"],
+		[<FaGitSquare />, "Git"],
+		[<AiFillApi />, "API's"],
+		[<AiFillHtml5 />, "HTML"],
+		[<FaBootstrap />, "Bootstrap"],
+		[<IoLogoNpm />, "NPM"],
 	];
 	return (
 		<div className="container-fluid" style={{ border: "1px solid pink" }}>
