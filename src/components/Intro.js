@@ -1,4 +1,5 @@
 import React from "react";
+import self from "../assets/kevin_portfolio_picture.png";
 
 let Intro = () => {
 	return (
@@ -11,20 +12,21 @@ let Intro = () => {
 					<div>Hello! I'm Kevin McPeak</div>
 					<div>Software Engineer</div>
 					<div id="intro-description">
-						<p>
-							I am a self taught software engineer. Self Starter.
-							Life Longer Learner
-						</p>
+						<p>I am a self taught software engineer.</p>
+						<p>Life long learner</p>
+						<p>Passionate about software Development</p>
 					</div>
 				</div>
 
 				<div id="right">
 					<div id="img_container">
-						<div>**My Picture**</div>
+						<img
+							src={self}
+							alt="self-photo"
+							className="self-photo"
+						></img>
 					</div>
 				</div>
-
-				<div id="#right">Right</div>
 			</div>
 		</div>
 	);
