@@ -4,7 +4,7 @@ import self from "../assets/kevin_portfolio_picture.png";
 let Intro = () => {
 	return (
 		<div
-			className="d-flex justify-content-start align-items-center vh-100"
+			className="d-flex justify-content-center align-items-center vh-100"
 			style={{ backgroundColor: "#152238" }}
 		>
 			<div className="d-flex intro-text">
@@ -31,7 +31,7 @@ let Intro = () => {
 					</div>
 				</div>
 
-				<div id="right">
+				<div className="ps-5" id="right">
 					<div id="img_container">
 						<img
 							src={self}
