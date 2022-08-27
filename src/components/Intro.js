@@ -9,7 +9,11 @@ let Intro = () => {
 		>
 			<div className="d-flex intro-text">
 				<div id="left">
-					<div>Hello! I'm Kevin McPeak</div>
+					<div className="hover-animation">Hello! </div>
+					<div className="hover-animation ps-3">
+						{" "}
+						I'm Kevin McPeak
+					</div>
 					<div>Software Engineer</div>
 					<div id="intro-description">
 						<p>I am a self taught software engineer.</p>
