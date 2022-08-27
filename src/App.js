@@ -7,7 +7,7 @@ import { Button } from "react-bootstrap";
 
 function App() {
 	return (
-		<div class="container" style={{ border: "1px solid pink" }}>
+		<div className="container" style={{ border: "1px solid pink" }}>
 			<Navbar />
 			<Intro />
 			<Background />
