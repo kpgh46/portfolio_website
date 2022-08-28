@@ -52,6 +52,7 @@ body{
   padding-top: 75px;
   border: 1px solid silver;
   
+  
 }
 
 
@@ -60,12 +61,8 @@ svg{
   width:75px;
 }
 
-.project-image-container{
-  height: 100px;
-  width: 80px;
-}
 
-.testt{
-  height: 500px;
-  width: 400px;
+.project-image{
+  max-width:80%;
+  max-height:80%;
 }
