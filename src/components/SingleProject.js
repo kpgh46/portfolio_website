@@ -9,7 +9,13 @@ let SingleProject = (props) => {
 					<div>project descriptions</div>
 				</div>
 				<div className="col-8">
-					<div>pricture here</div>
+					<div className="project-image-container">
+						<img
+							className="testt"
+							src={props.projectPhoto}
+							alt="project photo"
+						/>
+					</div>
 				</div>
 			</div>
 		</div>
