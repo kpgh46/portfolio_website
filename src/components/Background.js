@@ -5,8 +5,8 @@ let Background = () => {
 	return (
 		<div id="background" className="container-sm section">
 			<div className="row">
-				<h5 className="col-3 ps-5">Background</h5>
-				<div className="col 3">
+				<h5 className="col-3 ps-5 title">Background</h5>
+				<div className="col-3">
 					<div id="img_container">
 						<img
 							src={self}
@@ -15,7 +15,7 @@ let Background = () => {
 						></img>
 					</div>
 				</div>
-				<div className="col-3">
+				<div className="col-4">
 					<p>
 						I have been interested in cutting edge technology ever
 						since I can remember. It took me until about 2 years ago

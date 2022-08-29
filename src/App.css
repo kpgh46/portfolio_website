@@ -36,6 +36,20 @@ body{
   background-image: url("./assets/triagle_background.png");
 }
 
+#img_container{
+  
+  width: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+.title{
+
+  text-decoration: underline;
+  text-decoration-color: rgb(250,207,15);
+  text-decoration-thickness: 2px;
+}
+
 
 .self-photo{
   height: 320px;
@@ -68,7 +82,7 @@ body{
 
 .section{
   padding-top: 75px;
-  border: 1px solid silver;
+  /* border: 1px solid silver; */
 }
 
 

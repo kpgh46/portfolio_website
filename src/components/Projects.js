@@ -26,7 +26,7 @@ let Projects = () => {
 	return (
 		<div id="projects" className="container-sm section">
 			<div className="row">
-				<h5 className="col-3 ps-5">Projects</h5>
+				<h5 className="col-3 ps-5 title">Projects</h5>
 				<div className="col-8">
 					<SingleProject
 						title={projectOne.title}

@@ -15,7 +15,7 @@ let Skills = (props) => {
 	return (
 		<div className="container-sm section">
 			<div className="row">
-				<h5 className="col-3 ps-5">Skills</h5>
+				<h5 className="col-3 ps-5 title">Skills</h5>
 				<div className="col-7 d-flex flex-wrap justify-content-center">
 					{allSkills}
 				</div>
