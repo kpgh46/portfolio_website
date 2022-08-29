@@ -1,12 +1,10 @@
 import React from "react";
 import self from "../assets/kevin_portfolio_picture.png";
+import triangle from "../assets/triagle_background.png";
 
 let Intro = () => {
 	return (
-		<div
-			className="d-flex justify-content-center align-items-center vh-100"
-			style={{ backgroundColor: "#152238" }}
-		>
+		<div className="d-flex justify-content-center align-items-center vh-100 back">
 			<div className="d-flex intro-text">
 				<div id="left">
 					<div className="hover-animation">Hello! </div>

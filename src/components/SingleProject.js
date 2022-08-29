@@ -9,10 +9,32 @@ let SingleProject = (props) => {
 					<h2>{props.title}</h2>
 					<div>{props.description}</div>
 					<br></br>
-					<Button style={{ marginRight: "10px" }} variant="primary">
+					<Button
+						style={{
+							backgroundColor: "rgb(250,207,15)",
+							borderColor: "rgb(250,207,15)",
+							color: "black",
+							marginRight: "10px",
+							boxShadow:
+								"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
+						}}
+						className="project-button"
+					>
 						View Code
 					</Button>
-					<Button variant="primary">Live Demo</Button>
+					<Button
+						style={{
+							backgroundColor: "rgb(250,207,15)",
+							borderColor: "rgb(250,207,15)",
+							color: "black",
+							marginRight: "10px",
+							boxShadow:
+								"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
+						}}
+						variant="primary"
+					>
+						Live Demo
+					</Button>
 				</div>
 				<div className="col-8 d-flex justify-content-center">
 					<img

@@ -2,10 +2,7 @@ import React from "react";
 
 let Navbar = () => {
 	return (
-		<nav
-			class="navbar navbar-expand-lg nav-text"
-			style={{ backgroundColor: "#152238" }}
-		>
+		<nav class="navbar navbar-expand-lg nav-text sticky-top">
 			<div class="container-fluid">
 				<button
 					class="navbar-toggler"
