@@ -2,7 +2,7 @@ import React from "react";
 
 let Background = () => {
 	return (
-		<div className="container-sm section">
+		<div id="background" className="container-sm section">
 			<div className="row">
 				<h5 className="col-3 ps-5">Background</h5>
 				<div className="col-7">

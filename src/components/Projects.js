@@ -42,7 +42,7 @@ let Projects = () => {
 	};
 
 	return (
-		<div className="container-sm section">
+		<div id="projects" className="container-sm section">
 			<div className="row">
 				<h5 className="col-3 ps-5">Projects</h5>
 				<div className="col-8">

@@ -8,7 +8,8 @@ let SingleProject = (props) => {
 				<div className="col-4">
 					<h2>{props.title}</h2>
 					<div>{props.description}</div>
-					<Button variant="primary">Primary</Button>
+					<Button variant="primary">View Code</Button>
+					<Button variant="primary">Live Demo</Button>
 				</div>
 				<div className="col-8 d-flex justify-content-center">
 					<img

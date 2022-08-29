@@ -2,7 +2,10 @@ import React from "react";
 
 let Navbar = () => {
 	return (
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav
+			class="navbar navbar-expand-lg nav-text"
+			style={{ backgroundColor: "#152238" }}
+		>
 			<div class="container-fluid">
 				<button
 					class="navbar-toggler"
@@ -25,13 +28,13 @@ let Navbar = () => {
 							<a
 								class="nav-link active"
 								aria-current="page"
-								href="#"
+								href="#background"
 							>
 								Background
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">
+							<a class="nav-link" href="#projects">
 								Projects
 							</a>
 						</li>

@@ -68,3 +68,15 @@ svg{
   border-radius: 10px;
   border: .25px solid black;
 }
+
+li a{
+  color:white !important;
+  background-color: #152238;
+  text-decoration: dotted;
+  text-decoration-color: green;
+  border-bottom: 1px solid green;
+}
+
+li a:hover{
+  color:red;
+}
