@@ -18,14 +18,16 @@ let Intro = () => {
 					<div className="hover-animation pb-2">
 						Software Engineer
 					</div>
-					<div id="intro-description" className="d-flex">
-						<p className="hover-animation ps-2">
-							Self taught software engineer |{" "}
+					<div className="d-flex intro-description">
+						<p className="hover-animation ps-2 intro-words">
+							Self taught software engineer
 						</p>
-						<p className="hover-animation ps-2">
-							Life long learner|{" "}
+
+						<p className="hover-animation ps-2 intro-words">
+							Life long learner
 						</p>
-						<p className="hover-animation ps-2">
+						<span>|</span>
+						<p className="hover-animation ps-2 intro-words">
 							Passionate about Software Development
 						</p>
 					</div>
