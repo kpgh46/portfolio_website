@@ -8,37 +8,19 @@ let Projects = () => {
 	let projectOne = {
 		title: "Workout Generator",
 		photo: fitnessImage,
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-		sed do eiusmod tempor incididunt ut labore et dolore
-		magna aliqua. Ut enim ad minim veniam, quis nostrud
-		exercitation ullamco laboris nisi ut aliquip ex ea
-		commodo consequat. Duis aute irure dolor in
-		reprehenderit in voluptate velit esse cillum dolore eu
-		fugiat nulla pariatur.`,
+		description: `Generate your weekly workout based on the amount of time you have a day and equipment you have access to.  This app fetches excercises from an API and is built with plain Javascript and Bootstrap.`,
 	};
 
 	let projectTwo = {
 		title: "Where's Waldo",
 		photo: whereWaldoImage,
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-		sed do eiusmod tempor incididunt ut labore et dolore
-		magna aliqua. Ut enim ad minim veniam, quis nostrud
-		exercitation ullamco laboris nisi ut aliquip ex ea
-		commodo consequat. Duis aute irure dolor in
-		reprehenderit in voluptate velit esse cillum dolore eu
-		fugiat nulla pariatur.`,
+		description: `A classic childhood game where the mission is to find Waldo and his friends! Challenge youself by competing in four unique levels.  If you are quick enough, you may land yourself on the leaderboard.  Built with React and Firebase.`,
 	};
 
 	let projectThree = {
 		title: "Shopping Cart",
 		photo: shoppingCartImage,
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-		sed do eiusmod tempor incididunt ut labore et dolore
-		magna aliqua. Ut enim ad minim veniam, quis nostrud
-		exercitation ullamco laboris nisi ut aliquip ex ea
-		commodo consequat. Duis aute irure dolor in
-		reprehenderit in voluptate velit esse cillum dolore eu
-		fugiat nulla pariatur.`,
+		description: `Browse Indoor and Outdoor furniture in this React based e-commerce website.  If you like a peice of furntiture, just click "Add to Cart". Finalize your order at Checkout by updating quantities.`,
 	};
 
 	return (

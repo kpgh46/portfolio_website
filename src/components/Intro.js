@@ -22,7 +22,7 @@ let Intro = () => {
 						<p className="hover-animation ps-2 intro-words">
 							Self taught software engineer
 						</p>
-
+						<span>|</span>
 						<p className="hover-animation ps-2 intro-words">
 							Life long learner
 						</p>
