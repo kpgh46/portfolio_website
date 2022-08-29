@@ -65,4 +65,6 @@ svg{
 .project-image{
   max-width:80%;
   max-height:80%;
+  border-radius: 10px;
+  border: .25px solid black;
 }
