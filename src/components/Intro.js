@@ -1,5 +1,5 @@
 import React from "react";
-import self from "../assets/kevin_portfolio_picture.png";
+
 import triangle from "../assets/triagle_background.png";
 
 let Intro = () => {
@@ -29,16 +29,6 @@ let Intro = () => {
 						<p className="hover-animation ps-2 intro-words">
 							Passionate about Software Development
 						</p>
-					</div>
-				</div>
-
-				<div className="ps-5" id="right">
-					<div id="img_container">
-						<img
-							src={self}
-							alt="self-photo"
-							className="self-photo"
-						></img>
 					</div>
 				</div>
 			</div>
