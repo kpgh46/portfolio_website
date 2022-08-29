@@ -10,6 +10,7 @@ let Intro = () => {
 			<div className="d-flex intro-text">
 				<div id="left">
 					<div className="hover-animation">Hello! </div>
+
 					<div className="hover-animation ps-2">
 						{" "}
 						I'm Kevin McPeak

@@ -8,7 +8,10 @@ let SingleProject = (props) => {
 				<div className="col-4">
 					<h2>{props.title}</h2>
 					<div>{props.description}</div>
-					<Button variant="primary">View Code</Button>
+					<br></br>
+					<Button style={{ marginRight: "10px" }} variant="primary">
+						View Code
+					</Button>
 					<Button variant="primary">Live Demo</Button>
 				</div>
 				<div className="col-8 d-flex justify-content-center">
