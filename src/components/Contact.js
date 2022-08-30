@@ -36,7 +36,7 @@ let Contact = () => {
 				return your email within 24 hours.
 			</div>
 			<form ref={form} onSubmit={sendEmail}>
-				<div className="mb-3">
+				<div className="mb-3 form-div">
 					<label for="user_name" className="form-label">
 						Name
 					</label>
@@ -45,6 +45,7 @@ let Contact = () => {
 						id="user_name"
 						type="text"
 						name="user_name"
+						placeholder="Enter Your Name"
 					/>
 					<label for="user_email" className="form-label">
 						Email
@@ -54,6 +55,7 @@ let Contact = () => {
 						id="user_email"
 						type="email"
 						name="user_email"
+						placeholder="Enter Your Email"
 					/>
 					<label for="message" className="form-label">
 						Message
@@ -61,8 +63,9 @@ let Contact = () => {
 					<textarea
 						className="form-control"
 						id="message"
-						rows="3"
+						rows="8"
 						name="message"
+						placeholder="Enter Your Message"
 					/>
 					<input type="submit" value="Send" />
 				</div>
