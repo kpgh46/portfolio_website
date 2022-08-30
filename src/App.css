@@ -152,3 +152,7 @@ li a{
   text-decoration-thickness: 3px;
   font-size: 30px;
 }
+
+input{
+  border-radius: 2px;
+}

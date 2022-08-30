@@ -35,18 +35,37 @@ let Contact = () => {
 				Please submit your name, email and message to this form. I will
 				return your email within 24 hours.
 			</div>
-			<form
-				ref={form}
-				onSubmit={sendEmail}
-				className="d-flex flex-column"
-			>
-				<label>Name</label>
-				<input type="text" name="user_name" />
-				<label>Email</label>
-				<input type="email" name="user_email" />
-				<label>Message</label>
-				<textarea name="message" />
-				<input type="submit" value="Send" />
+			<form ref={form} onSubmit={sendEmail}>
+				<div className="mb-3">
+					<label for="user_name" className="form-label">
+						Name
+					</label>
+					<input
+						className="form-control"
+						id="user_name"
+						type="text"
+						name="user_name"
+					/>
+					<label for="user_email" className="form-label">
+						Email
+					</label>
+					<input
+						className="form-control"
+						id="user_email"
+						type="email"
+						name="user_email"
+					/>
+					<label for="message" className="form-label">
+						Message
+					</label>
+					<textarea
+						className="form-control"
+						id="message"
+						rows="3"
+						name="message"
+					/>
+					<input type="submit" value="Send" />
+				</div>
 			</form>
 		</div>
 	);
