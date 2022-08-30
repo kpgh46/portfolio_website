@@ -28,16 +28,21 @@ let Contact = () => {
 	};
 
 	return (
-		<div className="d-flex justify-content-center align-items-center back flex-column">
-			<div className="contact-header">Contact</div>
-			<div>Email: kevinmcpeak46@gmail.com</div>
-			<div>OR</div>
+		<div
+			className="d-flex justify-content-center align-items-center back flex-column pt-5"
+			id="contact"
+		>
+			<div className="contact-header mb-3">Contact</div>
+
 			<div>
-				Please submit your name, email and message to this form. I will
-				return your email within 24 hours.
+				Feel free to submit the form below or contact me directly at
+				<span style={{ fontWeight: "700" }}>
+					{" "}
+					kevinmcpeak46@gmail.com
+				</span>
 			</div>
 			<form ref={form} onSubmit={sendEmail}>
-				<div className="mb-3 form-div">
+				<div className="mb-3 form-div mt-3">
 					<label for="user_name" className="form-label">
 						Name
 					</label>
