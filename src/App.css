@@ -42,8 +42,8 @@ body{
 }
 
 #intro-more svg{
-  height: 38px;
-  width: 38px;
+  height: 35px;
+  width: 35px;
   box-shadow: none;
 }
 
@@ -140,4 +140,15 @@ li a{
   background-color: rgb(250,207,15);
   border-color: rgb(250,207,15);
   color: black
+}
+
+.contact{
+  border: 1px solid black;
+}
+
+.contact-header{
+  text-decoration: underline;
+  text-decoration-color: rgb(250,207,15);
+  text-decoration-thickness: 3px;
+  font-size: 30px;
 }

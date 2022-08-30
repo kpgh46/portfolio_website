@@ -4,6 +4,7 @@ import Background from "./components/Background";
 import Projects from "./components/Projects";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 import { Button } from "react-bootstrap";
 import { FaGithub } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
@@ -38,6 +39,7 @@ function App() {
 			<Background />
 			<Skills skills={skills} />
 			<Projects />
+			<Contact />
 		</div>
 	);
 }
