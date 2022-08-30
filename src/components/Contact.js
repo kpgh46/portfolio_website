@@ -1,6 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Button from "react-bootstrap/Button";
 
 let Contact = () => {
 	const form = useRef();
@@ -67,7 +68,21 @@ let Contact = () => {
 						name="message"
 						placeholder="Enter Your Message"
 					/>
-					<input type="submit" value="Send" />
+					<Button
+						type="submit"
+						style={{
+							backgroundColor: "rgb(250,207,15)",
+							borderColor: "rgb(250,207,15)",
+							color: "black",
+							marginRight: "10px",
+							width: "500px",
+							boxShadow:
+								"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
+						}}
+						className="project-button"
+					>
+						Send
+					</Button>
 				</div>
 			</form>
 		</div>
