@@ -1,35 +1,39 @@
 import React from "react";
+import { BsGithub } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
+import { BsFillArrowDownCircleFill } from "react-icons/bs";
 
 import triangle from "../assets/triagle_background.png";
 
 let Intro = () => {
 	return (
 		<div className="d-flex justify-content-center align-items-center vh-100 back">
-			<div className="d-flex intro-text">
-				<div id="left">
-					<div className="hover-animation">Hello! </div>
-
-					<div className="hover-animation ps-2">
-						{" "}
-						I'm Kevin McPeak
+			<div className="d-flex flex-column intro-text">
+				<div id="intro-name">
+					<div>HELLO, I'M KEVIN MCPEAK</div>
+				</div>
+				<div
+					id="intro-paragraph"
+					className="d-flex justify-content-center"
+				>
+					<div>
+						Something Here
+						<span style={{ marginLeft: "5px" }}>|</span>
 					</div>
-					<br></br>
-					<div className="hover-animation pb-2">
-						Software Engineer
+					<div style={{ marginLeft: "5px" }}>
+						Something Else{" "}
+						<span style={{ marginLeft: "5px" }}>|</span>
 					</div>
-					<div className="d-flex intro-description">
-						<p className="hover-animation ps-2 intro-words">
-							Self taught software engineer
-						</p>
-						<span>|</span>
-						<p className="hover-animation ps-2 intro-words">
-							Life long learner
-						</p>
-						<span>|</span>
-						<p className="hover-animation ps-2 intro-words">
-							Passionate about Software Development
-						</p>
-					</div>
+					<div style={{ marginLeft: "5px" }}>Last thing Here</div>
+				</div>
+				<div id="intro-contact">
+					<BsGithub />
+					<BsLinkedin />
+					<MdEmail />
+				</div>
+				<div id="intro-more">
+					<BsFillArrowDownCircleFill />
 				</div>
 			</div>
 		</div>
