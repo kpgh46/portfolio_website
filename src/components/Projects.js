@@ -26,7 +26,7 @@ let Projects = () => {
 	return (
 		<div id="projects" className="row d-flex justify-content-center mt-5">
 			<h5 className="col-sm offset-md-2 title">Projects</h5>
-			<div className="col-sm">
+			<div className="col-6">
 				<SingleProject
 					title={projectOne.title}
 					projectPhoto={projectOne.photo}
