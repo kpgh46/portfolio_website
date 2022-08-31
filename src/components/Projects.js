@@ -24,9 +24,9 @@ let Projects = () => {
 	};
 
 	return (
-		<div id="projects" className="row d-flex justify-content-center mt-5">
-			<h5 className="col-sm offset-md-2 title">Projects</h5>
-			<div className="col-6">
+		<div id="projects" className="row mt-5">
+			<h5 className="col-lg-2 offset-2">Projects</h5>
+			<div className="col-lg-6">
 				<SingleProject
 					title={projectOne.title}
 					projectPhoto={projectOne.photo}
@@ -43,7 +43,7 @@ let Projects = () => {
 					description={projectThree.description}
 				/>
 			</div>
-			<div className="col-sm"></div>
+			{/* <div className="col-sm"></div> */}
 		</div>
 	);
 };

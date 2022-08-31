@@ -3,9 +3,9 @@ import self from "../assets/kevin_portfolio_picture.png";
 
 let Background = () => {
 	return (
-		<div id="background" className="row d-flex justify-content-center mt-5">
-			<h5 className="col-sm offset-md-2 title">Background</h5>
-			<div className="col-sm">
+		<div id="background" className="row mt-5">
+			<h5 className="col-lg-2 offset-2">Back</h5>
+			<div className="col-lg-3">
 				<div id="img_container">
 					<img
 						src={self}
@@ -14,7 +14,7 @@ let Background = () => {
 					></img>
 				</div>
 			</div>
-			<div className="col-sm">
+			<div className="col-lg-3">
 				<p>
 					I have been interested in cutting edge technology ever since
 					I can remember. It took me until about 2 years ago to dive
@@ -27,7 +27,6 @@ let Background = () => {
 					ut aliquip ex ea commodo consequat. Duis aute irure dolor"
 				</p>
 			</div>
-			<div className="col-sm"></div>
 		</div>
 	);
 };

@@ -13,10 +13,10 @@ let Skills = (props) => {
 		);
 	});
 	return (
-		<div className="row d-flex justify-content-center mt-5">
-			<h5 className="col-sm offset-md-2 title">Skills</h5>
-			<div className="col-6 d-flex flex-wrap">{allSkills}</div>
-			<div className="col-sm"></div>
+		<div className="row mt-5">
+			<h5 className="col-lg-2 offset-2">Skills</h5>
+			<div className="col-lg-6 d-flex flex-wrap">{allSkills}</div>
+			{/* <div className="col"></div> */}
 		</div>
 	);
 };
