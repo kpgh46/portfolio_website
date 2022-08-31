@@ -33,7 +33,7 @@ function App() {
 		[<IoLogoNpm />, "NPM"],
 	];
 	return (
-		<div className="container-fluid" style={{ border: "1px solid pink" }}>
+		<div className="container-md" style={{ border: "1px solid pink" }}>
 			<Navbar />
 			<Intro />
 			<Background />

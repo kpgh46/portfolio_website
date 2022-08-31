@@ -24,27 +24,26 @@ let Projects = () => {
 	};
 
 	return (
-		<div id="projects" className="container-sm section">
-			<div className="row">
-				<h5 className="col-3 ps-5 title">Projects</h5>
-				<div className="col-8">
-					<SingleProject
-						title={projectOne.title}
-						projectPhoto={projectOne.photo}
-						description={projectOne.description}
-					/>
-					<SingleProject
-						title={projectTwo.title}
-						projectPhoto={projectTwo.photo}
-						description={projectTwo.description}
-					/>
-					<SingleProject
-						title={projectThree.title}
-						projectPhoto={projectThree.photo}
-						description={projectThree.description}
-					/>
-				</div>
+		<div id="projects" className="row d-flex justify-content-center mt-5">
+			<h5 className="col-sm offset-md-2 title">Projects</h5>
+			<div className="col-sm">
+				<SingleProject
+					title={projectOne.title}
+					projectPhoto={projectOne.photo}
+					description={projectOne.description}
+				/>
+				<SingleProject
+					title={projectTwo.title}
+					projectPhoto={projectTwo.photo}
+					description={projectTwo.description}
+				/>
+				<SingleProject
+					title={projectThree.title}
+					projectPhoto={projectThree.photo}
+					description={projectThree.description}
+				/>
 			</div>
+			<div className="col-sm"></div>
 		</div>
 	);
 };
