@@ -33,13 +33,17 @@ function App() {
 		[<IoLogoNpm />, "NPM"],
 	];
 	return (
-		<div className="container-md" style={{ border: "1px solid pink" }}>
-			<Navbar />
+		<div>
 			<Intro />
-			<Background />
-			<Skills skills={skills} />
-			<Projects />
-			<Contact />
+			<Navbar />
+			<div className="container-md">
+				<Background />
+				<Skills skills={skills} />
+				<Projects />
+			</div>
+			<div>
+				<Contact />
+			</div>
 		</div>
 	);
 }
