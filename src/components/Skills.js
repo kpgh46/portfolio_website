@@ -14,7 +14,8 @@ let Skills = (props) => {
 	});
 	return (
 		<div className="row mt-5">
-			<h5 className="col-lg-2 offset-2">Skills</h5>
+			<div className="col-lg-2"></div>
+			<h5 className="col-lg-2">Skills</h5>
 			<div className="col-lg-6 d-flex flex-wrap">{allSkills}</div>
 			{/* <div className="col"></div> */}
 		</div>

@@ -25,7 +25,8 @@ let Projects = () => {
 
 	return (
 		<div id="projects" className="row mt-5">
-			<h5 className="col-lg-2 offset-2">Projects</h5>
+			<div className="col-lg-2"></div>
+			<h5 className="col-lg-2">Projects</h5>
 			<div className="col-lg-6">
 				<SingleProject
 					title={projectOne.title}

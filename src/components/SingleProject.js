@@ -3,8 +3,8 @@ import Button from "react-bootstrap/Button";
 
 let SingleProject = (props) => {
 	return (
-		<div className="row">
-			<div className="col-sm">
+		<div className="row row-cols-auto">
+			<div className="col-lg-6">
 				<h2>{props.title}</h2>
 				<div>{props.description}</div>
 				<br></br>
@@ -33,7 +33,7 @@ let SingleProject = (props) => {
 					Live Demo
 				</Button>
 			</div>
-			<div className="col-sm">
+			<div className="col-lg-6">
 				<img
 					className="project-image"
 					src={props.projectPhoto}

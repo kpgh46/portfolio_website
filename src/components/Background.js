@@ -3,8 +3,10 @@ import self from "../assets/kevin_portfolio_picture.png";
 
 let Background = () => {
 	return (
-		<div id="background" className="row mt-5">
-			<h5 className="col-lg-2 offset-2">Back</h5>
+		<div id="background" className="row mt-5 d-flex">
+			<div className="col-lg-2"></div>
+
+			<h5 className="col-lg-2">Journey</h5>
 			<div className="col-lg-3">
 				<div id="img_container">
 					<img
