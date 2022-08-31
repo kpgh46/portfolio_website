@@ -24,27 +24,30 @@ let Projects = () => {
 	};
 
 	return (
-		<div id="projects" className="row mt-5">
-			<div className="col-lg-2"></div>
-			<h5 className="col-lg-2">Projects</h5>
-			<div className="col-lg-6">
-				<SingleProject
-					title={projectOne.title}
-					projectPhoto={projectOne.photo}
-					description={projectOne.description}
-				/>
-				<SingleProject
-					title={projectTwo.title}
-					projectPhoto={projectTwo.photo}
-					description={projectTwo.description}
-				/>
-				<SingleProject
-					title={projectThree.title}
-					projectPhoto={projectThree.photo}
-					description={projectThree.description}
-				/>
+		<div id="projects">
+			<br></br>
+			<div id="projects" className="row mt-5">
+				<div className="col-lg-2"></div>
+				<h5 className="col-lg-2">Projects</h5>
+				<div className="col-lg-6">
+					<SingleProject
+						title={projectOne.title}
+						projectPhoto={projectOne.photo}
+						description={projectOne.description}
+					/>
+					<SingleProject
+						title={projectTwo.title}
+						projectPhoto={projectTwo.photo}
+						description={projectTwo.description}
+					/>
+					<SingleProject
+						title={projectThree.title}
+						projectPhoto={projectThree.photo}
+						description={projectThree.description}
+					/>
+				</div>
+				{/* <div className="col-sm"></div> */}
 			</div>
-			{/* <div className="col-sm"></div> */}
 		</div>
 	);
 };

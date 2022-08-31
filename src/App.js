@@ -34,8 +34,8 @@ function App() {
 	];
 	return (
 		<div>
-			<Intro />
 			<Navbar />
+			<Intro />
 			<div className="container-md">
 				<Background />
 				<Skills skills={skills} />
