@@ -8,9 +8,9 @@ import triangle from "../assets/triagle_background.png";
 
 let Intro = () => {
 	return (
-		<div className="d-flex justify-content-center align-items-center vh-100 back">
+		<div className="d-flex justify-content-center align-items-center vw-100 vh-100 back">
 			<div className="d-flex flex-column intro-text">
-				<div id="intro-name">
+				<div id="intro-name" className="text-center">
 					<div>HELLO, I'M KEVIN MCPEAK</div>
 				</div>
 				<div

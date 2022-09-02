@@ -131,16 +131,14 @@ li a{
   font-size: 30px;
 }
 
-.form{
-  width: 600px;
-  border: 1px solid black;
-}
 
-input{
-  width: 600px;
-}
+
 
 .form-label{
   font-size: 14px;
   margin-bottom: 0px;
+}
+
+form{
+  width: 50%;
 }

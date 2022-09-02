@@ -5,12 +5,12 @@ let Background = () => {
 	return (
 		<div id="background">
 			<br></br>
-			<div className="row mt-5 d-flex">
+			<div className="row mt-5 ">
 				<div className="col-lg-2"></div>
 
 				<h5 className="col-lg-2">Journey</h5>
-				<div className="col-lg-3">
-					<div id="img_container">
+				<div className="col-lg-3 d-flex justify-content-center">
+					<div id="img_container ">
 						<img
 							src={self}
 							alt="self-photo"

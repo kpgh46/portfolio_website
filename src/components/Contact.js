@@ -29,12 +29,12 @@ let Contact = () => {
 
 	return (
 		<div
-			className="d-flex justify-content-center align-items-center back flex-column pt-5"
+			className="d-flex  align-items-center back flex-column pt-5 vw-100"
 			id="contact"
 		>
 			<div className="contact-header mb-3">Contact</div>
 
-			<div>
+			<div className="text-center">
 				Feel free to submit the form below or contact me directly at
 				<span style={{ fontWeight: "700" }}>
 					{" "}
@@ -80,7 +80,7 @@ let Contact = () => {
 							borderColor: "rgb(250,207,15)",
 							color: "black",
 							marginRight: "10px",
-							width: "500px",
+							width: "100%",
 							boxShadow:
 								"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
 						}}
