@@ -8,7 +8,7 @@ let Background = () => {
 			<div className="row mt-5 ">
 				<div className="col-lg-2"></div>
 
-				<h5 className="col-lg-2">Journey</h5>
+				<h5 className="col-lg-2 title">Journey</h5>
 				<div className="col-lg-3 d-flex justify-content-center">
 					<div id="img_container ">
 						<img

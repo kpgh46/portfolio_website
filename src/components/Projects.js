@@ -28,7 +28,7 @@ let Projects = () => {
 			<br></br>
 			<div id="projects" className="row mt-5">
 				<div className="col-lg-2"></div>
-				<h5 className="col-lg-2">Projects</h5>
+				<h5 className="col-lg-2 title">Projects</h5>
 				<div className="col-lg-6">
 					<SingleProject
 						title={projectOne.title}
