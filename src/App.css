@@ -70,7 +70,7 @@ body{
   height: 320px;
   width: 210px;
   border-radius: 12px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
 }
 
 
@@ -102,8 +102,8 @@ svg{
 li a{
   color:black !important;
   /* text-decoration: dotted; */
-  text-decoration-color: rgb(250,207,15);
-  border-bottom: 2px solid rgb(250,207,15);
+  /* text-decoration-color: rgb(250,207,15);
+  border-bottom: 2px solid rgb(250,207,15); */
 }
 
 .navbar .navbar-nav .nav-link:hover {
