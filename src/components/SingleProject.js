@@ -16,7 +16,7 @@ let SingleProject = (props) => {
 						marginRight: "8px",
 						boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
 					}}
-					className="project-button"
+					className="mb-3"
 				>
 					View Code
 				</Button>
@@ -29,6 +29,7 @@ let SingleProject = (props) => {
 						boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
 					}}
 					variant="primary"
+					className="mb-3"
 				>
 					Live Demo
 				</Button>

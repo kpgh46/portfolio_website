@@ -2,7 +2,7 @@ import React from "react";
 
 let Navbar = () => {
 	return (
-		<nav class="navbar navbar-expand-md">
+		<nav class="navbar navbar-expand-md sticky-top">
 			<button
 				class="navbar-toggler"
 				type="button"
