@@ -23,7 +23,6 @@ body{
 #intro-contact{
   display: flex;
   justify-content: center;
-  /* border: 1px solid black; */
   
 }
 
@@ -32,9 +31,10 @@ body{
   width:25px;
   margin-top: 5px;
   box-shadow: none;
+  color: black;
 }
 
-#intro-more{
+#intro-more a{
   display: flex;
   justify-content: center;
   margin-top: 120px;
@@ -76,7 +76,6 @@ body{
 
 .section{
   padding-top: 75px;
-  /* border: 1px solid silver; */
 }
 
 
@@ -95,15 +94,12 @@ svg{
   max-width:80%;
   max-height:80%;
   border-radius: 10px;
-  /* border: .25px solid black; */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 li a{
   color:black !important;
-  /* text-decoration: dotted; */
-  /* text-decoration-color: rgb(250,207,15);
-  border-bottom: 2px solid rgb(250,207,15); */
+
 }
 
 .navbar .navbar-nav .nav-link:hover {
@@ -112,8 +108,11 @@ li a{
   font-weight: 500px;
   font-size: 17px;
   
-  border-bottom: 4px solid rgb(250,207,15);
+  text-decoration: underline rgb(250,207,15);;
+  text-decoration-thickness: 3px;
 }
+
+
 
 .project{
   background-color: rgb(250,207,15);

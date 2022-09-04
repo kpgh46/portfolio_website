@@ -48,7 +48,9 @@ let Intro = () => {
 					</a>
 				</div>
 				<div id="intro-more">
-					<BsFillArrowDownCircleFill />
+					<a href="#background">
+						<BsFillArrowDownCircleFill />
+					</a>
 				</div>
 			</div>
 		</div>
