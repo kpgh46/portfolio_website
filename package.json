@@ -49,5 +49,8 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
+  },
+  "repository": {
+    "url": "git+https://github.com/kpgh46/portfolio_website.git"
   }
 }
