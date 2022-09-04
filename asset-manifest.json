@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio_website/static/css/main.bd1d2db2.css",
+    "main.js": "/portfolio_website/static/js/main.4dc0ac51.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio_website/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Where's_Waldo_1.png": "/portfolio_website/static/media/Where's_Waldo_1.97370bc6f212b2beefc8.png",
+    "static/media/Shopping_Cart-2.png": "/portfolio_website/static/media/Shopping_Cart-2.b8716d98e3b8e55d4d5b.png",
+    "static/media/triagle_background.png": "/portfolio_website/static/media/triagle_background.0664e038b5ee760119e6.png",
+    "static/media/kevin_portfolio_picture.png": "/portfolio_website/static/media/kevin_portfolio_picture.234533ccb26ec64ec16c.png",
+    "static/media/Fitness_Planner-2.png": "/portfolio_website/static/media/Fitness_Planner-2.f6a818064402ecbaa434.png",
+    "index.html": "/portfolio_website/index.html",
+    "main.bd1d2db2.css.map": "/portfolio_website/static/css/main.bd1d2db2.css.map",
+    "main.4dc0ac51.js.map": "/portfolio_website/static/js/main.4dc0ac51.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio_website/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd1d2db2.css",
+    "static/js/main.4dc0ac51.js"
+  ]
+}
