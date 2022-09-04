@@ -9,6 +9,7 @@ let SingleProject = (props) => {
 				<div>{props.description}</div>
 				<br></br>
 				<Button
+					href={props.codeUrl}
 					style={{
 						backgroundColor: "rgb(250,207,15)",
 						borderColor: "rgb(250,207,15)",
@@ -21,6 +22,7 @@ let SingleProject = (props) => {
 					View Code
 				</Button>
 				<Button
+					href={props.liveUrl}
 					style={{
 						backgroundColor: "rgb(250,207,15)",
 						borderColor: "rgb(250,207,15)",

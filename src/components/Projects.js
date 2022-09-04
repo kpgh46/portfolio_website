@@ -9,18 +9,24 @@ let Projects = () => {
 		title: "Workout Generator",
 		photo: fitnessImage,
 		description: `Generate your weekly workout based on the amount of time you have a day and equipment you have access to.  This app fetches excercises from an API and is built with plain Javascript and Bootstrap.`,
+		liveUrl: "https://kpgh46.github.io/fitness-dashboard/",
+		codeUrl: "https://github.com/kpgh46/fitness-dashboard",
 	};
 
 	let projectTwo = {
 		title: "Where's Waldo",
 		photo: whereWaldoImage,
 		description: `A classic childhood game where the mission is to find Waldo and his friends! Challenge youself by competing in four unique levels.  If you are quick enough, you may land yourself on the leaderboard.  Built with React and Firebase.`,
+		liveUrl: "https://kpgh46.github.io/wheresWaldo/",
+		codeUrl: "https://github.com/kpgh46/wheresWaldo",
 	};
 
 	let projectThree = {
 		title: "Shopping Cart",
 		photo: shoppingCartImage,
 		description: `Browse Indoor and Outdoor furniture in this React based e-commerce website.  If you like a peice of furntiture, just click "Add to Cart". Finalize your order at Checkout by updating quantities.`,
+		liveUrl: "https://kpgh46.github.io/shoppingcart/",
+		codeUrl: "https://github.com/kpgh46/shoppingcart",
 	};
 
 	return (
@@ -34,16 +40,22 @@ let Projects = () => {
 						title={projectOne.title}
 						projectPhoto={projectOne.photo}
 						description={projectOne.description}
+						liveUrl={projectOne.liveUrl}
+						codeUrl={projectOne.codeUrl}
 					/>
 					<SingleProject
 						title={projectTwo.title}
 						projectPhoto={projectTwo.photo}
 						description={projectTwo.description}
+						liveUrl={projectTwo.liveUrl}
+						codeUrl={projectTwo.codeUrl}
 					/>
 					<SingleProject
 						title={projectThree.title}
 						projectPhoto={projectThree.photo}
 						description={projectThree.description}
+						liveUrl={projectThree.liveUrl}
+						codeUrl={projectThree.codeUrl}
 					/>
 				</div>
 				{/* <div className="col-sm"></div> */}
