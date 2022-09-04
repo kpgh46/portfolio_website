@@ -28,9 +28,24 @@ let Intro = () => {
 					<div style={{ marginLeft: "5px" }}>Last thing Here</div>
 				</div>
 				<div id="intro-contact">
-					<BsGithub />
-					<BsLinkedin />
-					<MdEmail />
+					<a
+						href="https://github.com/kpgh46"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<BsGithub />
+					</a>
+
+					<a
+						href="https://www.linkedin.com/in/kevin-mcpeak-a9457931"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<BsLinkedin />
+					</a>
+					<a href="#contact">
+						<MdEmail />
+					</a>
 				</div>
 				<div id="intro-more">
 					<BsFillArrowDownCircleFill />
