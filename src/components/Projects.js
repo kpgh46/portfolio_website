@@ -22,7 +22,7 @@ let Projects = () => {
 	};
 
 	let projectThree = {
-		title: "Shopping Cart",
+		title: "ECommerce Shopping Website",
 		photo: shoppingCartImage,
 		description: `Browse Indoor and Outdoor furniture in this React based e-commerce website.  If you like a peice of furntiture, just click "Add to Cart". Finalize your order at Checkout by updating quantities.`,
 		liveUrl: "https://kpgh46.github.io/shoppingcart/",
