@@ -20,16 +20,20 @@ let Background = () => {
 				</div>
 				<div className="col-lg-3">
 					<p>
-						I have been interested in cutting edge technology ever
-						since I can remember. It took me until about 2 years ago
-						to dive in, and I haven't looked back! I can honestly
-						say computer programming is my life long passion. I love
-						to build cool stuff and solve problems! "Lorem ipsum
-						dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna
-						aliqua. Ut enim ad minim veniam, quis nostrud
-						exercitation ullamco laboris nisi ut aliquip ex ea
-						commodo consequat. Duis aute irure dolor"
+						I’ve always been interested in technology and, in early
+						2021, I decided I wanted to make it a significant part
+						of my life. I dove right into HTML, CSS, and Javascript.
+						As a life long learner, ‘leveling up’ my skills day in
+						and day out was a great feeling. This was the first time
+						I found myself doing something I loved.
+					</p>
+					<p>
+						{" "}
+						I have earned a bachelors degree, MBA, and followed The
+						Odin Project cirriculum for my web development. Learning
+						software development is one of the most challenging
+						things I have done in my life, but the challenge is what
+						keeps me excited for the future.
 					</p>
 				</div>
 			</div>

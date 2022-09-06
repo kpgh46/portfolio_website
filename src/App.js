@@ -17,6 +17,7 @@ import { AiFillApi } from "react-icons/ai";
 import { AiFillHtml5 } from "react-icons/ai";
 import { FaBootstrap } from "react-icons/fa";
 import { IoLogoNpm } from "react-icons/io";
+import { SiJest } from "react-icons/si";
 
 function App() {
 	let skills = [
@@ -27,10 +28,11 @@ function App() {
 		[<SiCss3 />, "CSS"],
 		[<AiFillApi />, "API's"],
 		[<FaGithub />, "github"],
-		// [<SiVisualstudio />, "VS Code"],
+		[<SiVisualstudio />, "VS Code"],
 		[<FaGitSquare />, "Git"],
 		[<FaBootstrap />, "Bootstrap"],
 		[<IoLogoNpm />, "NPM"],
+		[<SiJest />, "Jest"],
 	];
 	return (
 		<div>
