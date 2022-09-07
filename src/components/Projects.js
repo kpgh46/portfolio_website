@@ -8,7 +8,7 @@ let Projects = () => {
 	let projectOne = {
 		title: "Workout Generator",
 		photo: fitnessImage,
-		description: `Generate your weekly workout based on the amount of time you have a day and equipment you have access to.  This app fetches excercises from an API and is built with plain Javascript and Bootstrap.`,
+		description: `Generate your weekly workout based on the number of days, amount of time, and equipment you have access to. View GIF's of excercises and track your weekly progress.  This app fetches exercises from two API's and is built with plain Javascript and Bootstrap 5.`,
 		liveUrl: "https://kpgh46.github.io/fitness-dashboard/",
 		codeUrl: "https://github.com/kpgh46/fitness-dashboard",
 	};
@@ -16,15 +16,15 @@ let Projects = () => {
 	let projectTwo = {
 		title: "Where's Waldo",
 		photo: whereWaldoImage,
-		description: `A classic childhood game where the mission is to find Waldo and his friends! Challenge youself by competing in four unique levels.  If you are quick enough, you may land yourself on the leaderboard.  Built with React and Firebase.`,
+		description: `A classic childhood game where the mission is to find Waldo and his friends! Challenge yourself by competing in four unique levels.  If you are quick enough, you may land yourself on the global leaderboard.  Built with React and Firebase.`,
 		liveUrl: "https://kpgh46.github.io/wheresWaldo/",
 		codeUrl: "https://github.com/kpgh46/wheresWaldo",
 	};
 
 	let projectThree = {
-		title: "ECommerce Shopping Website",
+		title: "E-Commerce Shopping Website",
 		photo: shoppingCartImage,
-		description: `Browse Indoor and Outdoor furniture in this React based e-commerce website.  If you like a peice of furntiture, just click "Add to Cart". Finalize your order at Checkout by updating quantities.`,
+		description: `A replica of an E-Commerce website where you can browse Indoor and Outdoor furniture.  If you like a peice of furniture, just click "Add to Cart". Finalize your order at checkout by updating quantities. Built with React.`,
 		liveUrl: "https://kpgh46.github.io/shoppingcart/",
 		codeUrl: "https://github.com/kpgh46/shoppingcart",
 	};

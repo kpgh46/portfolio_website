@@ -18,20 +18,21 @@ let Intro = () => {
 					className="d-flex justify-content-center"
 				>
 					<div>
-						Something Here
-						<span style={{ marginLeft: "5px" }}>|</span>
+						Software Engineer from Pittsburgh Pennsylvania
+						{/* <span style={{ marginLeft: "5px" }}>|</span> */}
 					</div>
-					<div style={{ marginLeft: "5px" }}>
+					{/* <div style={{ marginLeft: "5px" }}>
 						Something Else{" "}
 						<span style={{ marginLeft: "5px" }}>|</span>
 					</div>
-					<div style={{ marginLeft: "5px" }}>Last thing Here</div>
+					<div style={{ marginLeft: "5px" }}>Last thing Here</div> */}
 				</div>
 				<div id="intro-contact">
 					<a
 						href="https://github.com/kpgh46"
 						target="_blank"
 						rel="noreferrer"
+						style={{ margin: "1px" }}
 					>
 						<BsGithub />
 					</a>
@@ -40,10 +41,11 @@ let Intro = () => {
 						href="https://www.linkedin.com/in/kevin-mcpeak-a9457931"
 						target="_blank"
 						rel="noreferrer"
+						style={{ margin: "1px" }}
 					>
 						<BsLinkedin />
 					</a>
-					<a href="#contact">
+					<a href="#contact" style={{ margin: "1px" }}>
 						<MdEmail />
 					</a>
 				</div>

@@ -27,7 +27,7 @@ function App() {
 		[<SiFirebase />, "Firebase"],
 		[<SiCss3 />, "CSS"],
 		[<AiFillApi />, "API's"],
-		[<FaGithub />, "github"],
+		[<FaGithub />, "Github"],
 		[<SiVisualstudio />, "VS Code"],
 		[<FaGitSquare />, "Git"],
 		[<FaBootstrap />, "Bootstrap"],

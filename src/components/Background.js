@@ -33,7 +33,7 @@ let Background = () => {
 						<a href="https://theodinproject.com">
 							The Odin Project
 						</a>{" "}
-						cirriculum for my web development. Learning software
+						cirriculum for web development. Learning software
 						development is one of the most challenging things I have
 						done in my life, but the challenge is what keeps me
 						excited for the future.
