@@ -20,6 +20,7 @@ let Contact = () => {
 				(result) => {
 					console.log(result.text);
 					console.log("message sent");
+					document.querySelector(".sent").classList.add("visible");
 				},
 				(error) => {
 					console.log(error.text);
@@ -33,6 +34,7 @@ let Contact = () => {
 			id="contact"
 		>
 			<div className="contact-header mb-3">Contact</div>
+			<div className="sent">Message Sent!</div>
 
 			<div className="text-center">
 				Feel free to submit the form below or contact me directly at
@@ -41,22 +43,25 @@ let Contact = () => {
 					kevinmcpeak46@gmail.com
 				</span>
 			</div>
-			<form ref={form} onSubmit={sendEmail}>
+			<form ref={form} onSubmit={sendEmail} className="needs-validation">
 				<div className="mb-3 form-div mt-3">
 					<label for="user_name" className="form-label">
 						Name
 					</label>
 					<input
+						required
 						className="form-control"
 						id="user_name"
 						type="text"
 						name="user_name"
 						placeholder="Enter Your Name"
 					/>
+					<div class="valid-feedback">Looks good!</div>
 					<label for="user_email" className="form-label">
 						Email
 					</label>
 					<input
+						required
 						className="form-control"
 						id="user_email"
 						type="email"
@@ -67,6 +72,7 @@ let Contact = () => {
 						Message
 					</label>
 					<textarea
+						required
 						className="form-control"
 						id="message"
 						rows="8"

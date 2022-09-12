@@ -41,6 +41,19 @@ body{
   color: rgb(250,207,15);
 }
 
+
+.sent{
+  color: green;
+  font-weight: 400;
+  font-size: larger;
+  visibility: hidden;
+
+}
+
+.visible{
+  visibility: visible;
+}
+
 #intro-more svg{
   height: 35px;
   width: 35px;
