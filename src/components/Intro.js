@@ -18,7 +18,7 @@ let Intro = () => {
 					className="d-flex justify-content-center"
 				>
 					<div>
-						Software Engineer from Pittsburgh Pennsylvania
+						Web Developer from Pittsburgh Pennsylvania
 						{/* <span style={{ marginLeft: "5px" }}>|</span> */}
 					</div>
 					{/* <div style={{ marginLeft: "5px" }}>
