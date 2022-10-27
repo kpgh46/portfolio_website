@@ -3,6 +3,7 @@ import SingleProject from "./SingleProject";
 import fitnessImage from "../assets/Fitness_Planner-2.png";
 import whereWaldoImage from "../assets/Where's_Waldo_1.png";
 import shoppingCartImage from "../assets/Shopping_Cart-2.png";
+import MovieImage from "../assets/movie_database3.png";
 
 let Projects = () => {
 	let projectOne = {
@@ -29,6 +30,18 @@ let Projects = () => {
 		codeUrl: "https://github.com/kpgh46/shoppingcart",
 	};
 
+	let projectFour = {
+		title: "Movie Database",
+		photo: MovieImage,
+		description: `Create, Read, Update, and Delete your favorite
+		movies with this database. Search based on
+		your favorite category and learn more about
+		any type of movie. Built with NodeJS, MongoDB,
+		Express, and Pug.`,
+		liveUrl: "https://movieapp-production.up.railway.app/",
+		codeUrl: "https://github.com/kpgh46/MovieApp",
+	};
+
 	return (
 		<div id="projects">
 			<br></br>
@@ -49,6 +62,13 @@ let Projects = () => {
 						description={projectTwo.description}
 						liveUrl={projectTwo.liveUrl}
 						codeUrl={projectTwo.codeUrl}
+					/>
+					<SingleProject
+						title={projectFour.title}
+						projectPhoto={projectFour.photo}
+						description={projectFour.description}
+						liveUrl={projectFour.liveUrl}
+						codeUrl={projectFour.codeUrl}
 					/>
 					<SingleProject
 						title={projectThree.title}

@@ -18,6 +18,10 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { FaBootstrap } from "react-icons/fa";
 import { IoLogoNpm } from "react-icons/io";
 import { SiJest } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { DiNodejs } from "react-icons/di";
+import { SiExpress } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
 
 function App() {
 	let skills = [
@@ -26,13 +30,16 @@ function App() {
 		[<DiReact />, "React"],
 		[<SiFirebase />, "Firebase"],
 		[<SiCss3 />, "CSS"],
-		[<AiFillApi />, "API's"],
-		[<FaGithub />, "Github"],
+		[<AiFillApi />, " REST API"],
 		[<SiVisualstudio />, "VS Code"],
 		[<FaGitSquare />, "Git"],
 		[<FaBootstrap />, "Bootstrap"],
 		[<IoLogoNpm />, "NPM"],
 		[<SiJest />, "Jest"],
+		[<SiMongodb />, "MongoDB"],
+		[<DiNodejs />, "NodeJS"],
+		[<SiExpress />, "Express"],
+		[<SiMysql />, "SQL"],
 	];
 	return (
 		<div>
