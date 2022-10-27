@@ -35,7 +35,7 @@ let Projects = () => {
 		photo: MovieImage,
 		description: `Create, Read, Update, and Delete your favorite
 		movies with this database. Search based on
-		your favorite category and learn more about
+		your preferred category and learn more about
 		any type of movie. Built with NodeJS, MongoDB,
 		Express, and Pug.`,
 		liveUrl: "https://movieapp-production.up.railway.app/",
