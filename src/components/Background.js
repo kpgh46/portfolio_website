@@ -1,5 +1,5 @@
 import React from "react";
-import self from "../assets/kevin_portfolio_picture.png";
+import self from "../assets/kevin_headshot9.png";
 
 let Background = () => {
 	return (
