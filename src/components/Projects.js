@@ -4,6 +4,7 @@ import fitnessImage from "../assets/Fitness_Planner-2.png";
 import whereWaldoImage from "../assets/Where's_Waldo_1.png";
 import shoppingCartImage from "../assets/Shopping_Cart-2.png";
 import MovieImage from "../assets/movie_database3.png";
+import SocialApp from "../assets/shareThoughtsScreenshot.png";
 
 let Projects = () => {
 	let projectOne = {
@@ -15,7 +16,7 @@ let Projects = () => {
 	};
 
 	let projectTwo = {
-		title: "Where's Waldo",
+		title: "Photo Tagging Game",
 		photo: whereWaldoImage,
 		description: `A classic childhood game where the mission is to find Waldo and his friends! Challenge yourself by competing in four unique levels.  If you are quick enough, you may land yourself on the global leaderboard.  Built with React and Firebase.`,
 		liveUrl: "https://kpgh46.github.io/wheresWaldo/",
@@ -42,6 +43,14 @@ let Projects = () => {
 		codeUrl: "https://github.com/kpgh46/MovieApp",
 	};
 
+	let projectFive = {
+		title: "Social Media App",
+		photo: SocialApp,
+		description: `A Social Media app that allows users to post, comment, like and follow other users.  Implemented with a Restful API with CRUD functionality utilizing MERN stack with JSON Web Token Authentication.`,
+		// liveUrl: "https://movieapp-production.up.railway.app/",
+		codeUrl: "https://github.com/kpgh46/twttrClone",
+	};
+
 	return (
 		<div id="projects">
 			<br></br>
@@ -55,6 +64,13 @@ let Projects = () => {
 						description={projectOne.description}
 						liveUrl={projectOne.liveUrl}
 						codeUrl={projectOne.codeUrl}
+					/>
+					<SingleProject
+						title={projectFive.title}
+						projectPhoto={projectFive.photo}
+						description={projectFive.description}
+						// liveUrl={projectFive.liveUrl}
+						codeUrl={projectFive.codeUrl}
 					/>
 					<SingleProject
 						title={projectTwo.title}
