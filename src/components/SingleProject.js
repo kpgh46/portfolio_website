@@ -21,20 +21,23 @@ let SingleProject = (props) => {
 				>
 					View Code
 				</Button>
-				<Button
-					href={props.liveUrl}
-					style={{
-						backgroundColor: "rgb(250,207,15)",
-						borderColor: "rgb(250,207,15)",
-						color: "black",
-						marginRight: "10px",
-						boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
-					}}
-					variant="primary"
-					className="mb-3"
-				>
-					Live Demo
-				</Button>
+				{props.liveUrl && (
+					<Button
+						href={props.liveUrl}
+						style={{
+							backgroundColor: "rgb(250,207,15)",
+							borderColor: "rgb(250,207,15)",
+							color: "black",
+							marginRight: "10px",
+							boxShadow:
+								"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
+						}}
+						variant="primary"
+						className="mb-3"
+					>
+						Live Demo
+					</Button>
+				)}
 			</div>
 			<div className="col-lg-6">
 				<img
