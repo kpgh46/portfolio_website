@@ -5,6 +5,7 @@ import whereWaldoImage from "../assets/Where's_Waldo_1.png";
 import shoppingCartImage from "../assets/Shopping_Cart-2.png";
 import MovieImage from "../assets/movie_database3.png";
 import SocialApp from "../assets/shareThoughtsScreenshot.png";
+import Tetris from "../assets/tetrisTwo.png";
 
 let Projects = () => {
 	let projectOne = {
@@ -51,6 +52,14 @@ let Projects = () => {
 		codeUrl: "https://github.com/kpgh46/twttrClone",
 	};
 
+	let projectSix = {
+		title: "Tetris",
+		photo: Tetris,
+		description: `This classic puzzle game was built using Test Driven Development, JavaScript, and CSS with a focus on pure functions and easy to follow code.  Complete with five levels of increasing speed and a points tracking system.`,
+		liveUrl: "https://kpgh46.github.io/TDD_Tetris/",
+		codeUrl: "https://github.com/kpgh46/TDD_Tetris",
+	};
+
 	return (
 		<div id="projects">
 			<br></br>
@@ -71,6 +80,13 @@ let Projects = () => {
 						description={projectFive.description}
 						// liveUrl={projectFive.liveUrl}
 						codeUrl={projectFive.codeUrl}
+					/>
+					<SingleProject
+						title={projectSix.title}
+						projectPhoto={projectSix.photo}
+						description={projectSix.description}
+						liveUrl={projectSix.liveUrl}
+						codeUrl={projectSix.codeUrl}
 					/>
 					<SingleProject
 						title={projectTwo.title}
