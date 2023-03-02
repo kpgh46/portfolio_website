@@ -10,6 +10,7 @@ import Tetris from "../assets/tetrisTwo.png";
 let Projects = () => {
 	let projectOne = {
 		title: "Workout Generator",
+		primary: "API, Algorithm",
 		photo: fitnessImage,
 		description: `Generate your weekly workout based on the number of days, amount of time, and equipment you have access to. View GIF's of excercises and track your weekly progress.  This app fetches exercises from two API's and is built with plain Javascript and Bootstrap 5.`,
 		liveUrl: "https://kpgh46.github.io/fitness-dashboard/",
@@ -18,6 +19,7 @@ let Projects = () => {
 
 	let projectTwo = {
 		title: "Photo Tagging Game",
+		primary: "React, Firebase",
 		photo: whereWaldoImage,
 		description: `A classic childhood game where the mission is to find Waldo and his friends! Challenge yourself by competing in four unique levels.  If you are quick enough, you may land yourself on the global leaderboard.  Built with React and Firebase.`,
 		liveUrl: "https://kpgh46.github.io/wheresWaldo/",
@@ -26,6 +28,7 @@ let Projects = () => {
 
 	let projectThree = {
 		title: "E-Commerce Shopping Website",
+		primary: "React",
 		photo: shoppingCartImage,
 		description: `A replica of an E-Commerce website where you can browse Indoor and Outdoor furniture.  If you like a peice of furniture, just click "Add to Cart". Finalize your order at checkout by updating quantities. Built with React.`,
 		liveUrl: "https://kpgh46.github.io/shoppingcart/",
@@ -34,6 +37,7 @@ let Projects = () => {
 
 	let projectFour = {
 		title: "Movie Database",
+		primary: "Full Stack, CRUD",
 		photo: MovieImage,
 		description: `Create, Read, Update, and Delete your favorite
 		movies with this database. Search based on
@@ -46,6 +50,7 @@ let Projects = () => {
 
 	let projectFive = {
 		title: "Social Media App",
+		primary: "Full Stack, CRUD, Authentication",
 		photo: SocialApp,
 		description: `A Social Media app that allows users to post, comment, like and follow other users.  Implemented with a Restful API with CRUD functionality utilizing MERN stack with JSON Web Token Authentication.`,
 		// liveUrl: "https://movieapp-production.up.railway.app/",
@@ -54,6 +59,7 @@ let Projects = () => {
 
 	let projectSix = {
 		title: "Tetris",
+		primary: "Test Driven Development",
 		photo: Tetris,
 		description: `This classic puzzle game was built using Test Driven Development, JavaScript, and CSS with a focus on pure functions and easy to follow code.  Complete with five levels of increasing speed and a points tracking system.`,
 		liveUrl: "https://kpgh46.github.io/TDD_Tetris/",
@@ -69,6 +75,7 @@ let Projects = () => {
 				<div className="col-lg-6">
 					<SingleProject
 						title={projectOne.title}
+						primary={projectOne.primary}
 						projectPhoto={projectOne.photo}
 						description={projectOne.description}
 						liveUrl={projectOne.liveUrl}
@@ -76,6 +83,7 @@ let Projects = () => {
 					/>
 					<SingleProject
 						title={projectFive.title}
+						primary={projectFive.primary}
 						projectPhoto={projectFive.photo}
 						description={projectFive.description}
 						// liveUrl={projectFive.liveUrl}
@@ -83,6 +91,7 @@ let Projects = () => {
 					/>
 					<SingleProject
 						title={projectSix.title}
+						primary={projectSix.primary}
 						projectPhoto={projectSix.photo}
 						description={projectSix.description}
 						liveUrl={projectSix.liveUrl}
@@ -90,6 +99,7 @@ let Projects = () => {
 					/>
 					<SingleProject
 						title={projectTwo.title}
+						primary={projectTwo.primary}
 						projectPhoto={projectTwo.photo}
 						description={projectTwo.description}
 						liveUrl={projectTwo.liveUrl}
@@ -97,6 +107,7 @@ let Projects = () => {
 					/>
 					<SingleProject
 						title={projectFour.title}
+						primary={projectFour.primary}
 						projectPhoto={projectFour.photo}
 						description={projectFour.description}
 						liveUrl={projectFour.liveUrl}
@@ -104,6 +115,7 @@ let Projects = () => {
 					/>
 					<SingleProject
 						title={projectThree.title}
+						primary={projectThree.primary}
 						projectPhoto={projectThree.photo}
 						description={projectThree.description}
 						liveUrl={projectThree.liveUrl}

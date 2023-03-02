@@ -6,6 +6,9 @@ let SingleProject = (props) => {
 		<div className="row row-cols-auto">
 			<div className="col-lg-6">
 				<h2>{props.title}</h2>
+				<h6>
+					<i>{props.primary}</i>
+				</h6>
 				<div>{props.description}</div>
 				<br></br>
 				<Button
