@@ -44,7 +44,7 @@ let Projects = () => {
 		your preferred category and learn more about
 		any type of movie. Built with NodeJS, MongoDB,
 		Express, and Pug.`,
-		liveUrl: "movieapp-production-7762.up.railway.app",
+		liveUrl: "https://movieapp-production-7762.up.railway.app",
 		codeUrl: "https://github.com/kpgh46/MovieApp",
 	};
 
