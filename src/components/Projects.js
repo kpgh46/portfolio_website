@@ -113,14 +113,14 @@ let Projects = () => {
 						liveUrl={projectFour.liveUrl}
 						codeUrl={projectFour.codeUrl}
 					/>
-					<SingleProject
+					{/* <SingleProject
 						title={projectThree.title}
 						primary={projectThree.primary}
 						projectPhoto={projectThree.photo}
 						description={projectThree.description}
 						liveUrl={projectThree.liveUrl}
 						codeUrl={projectThree.codeUrl}
-					/>
+					/> */}
 				</div>
 				{/* <div className="col-sm"></div> */}
 			</div>
